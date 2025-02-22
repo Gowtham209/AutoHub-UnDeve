@@ -1,0 +1,88 @@
+
+.buy-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #686767;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    flex: 1; 
+    background-color: #646f6f; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .content {
+    flex: 1; /* Takes up the other half */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .car-details h1, .car-details h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .quantity-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .quantity-buttons button {
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .buy-car-title{
+    padding-bottom: 2rem;
+  }
+  
+  .quantity-buttons button:hover {
+    background-color: #ce5606;
+  }
+  
+  .buy-page-button-warpper {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .buy-page-button-warpper button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  input[type="datetime-local"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #686767;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #686767;
+  } 
+  
+  .content div {
+    background: #646464;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,104 @@
+:root{
+    --button-color:rgb(255, 140, 0);
+    --button-hover-color:rgb(245, 245, 245);
+
+    --font-family:Georgia;
+    --font-color:white;
+    --button-padding:0.8rem 0.6rem;
+    --button-border-radius:0.4rem;
+    --button-font-size:1.5rem;
+    --form-border-radius:0.6rem;
+    --input-box-border-radius:0.8rem;
+
+    --font-heading-family:sans-serif;
+    --foot-background-color:black
+
+}
+
+nav{
+    
+
+    /* BackGround */
+    /* background-color: rgb(94, 105, 114); */
+    /* background-color: rgb(225, 231, 231); */
+    background-image: url(abstract-blue-geometric-shapes-background.jpg);
+    /* background-image: url(freepik__upload__11798.jpg); */
+    background-size: cover; 
+    background-position: center center;
+    background-color: rgba(121, 137, 208, 0.5); 
+    background-blend-mode: multiply;
+    
+    /* Box Designing */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    /* padding: 0.3rem 0rem; */
+    padding: 1rem;
+    /* position */
+    position: sticky;
+    top: 0rem;
+
+    z-index: 1000;
+
+
+}
+
+nav .logo{
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    margin-right: auto;
+    margin-left: 1rem;
+
+    width: 15rem;
+}
+
+nav .logo img{
+    width: 100%;
+}
+
+nav .nav-buttons{
+   
+
+    /* Box Designing */
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    margin-right: 1rem;
+}
+
+nav .nav-buttons a{
+    /* removing a tag */
+    text-decoration: none;
+}
+
+nav .nav-buttons button{
+    /* removing button design*/
+    border: none;
+}
+
+.nav-but{
+
+    /* font design */
+    font-size: var(--button-font-size);
+    font-family:  var(--font-family);
+    color: var(--font-color);
+
+    /* background */
+    background-color:var(--button-color) ;
+    padding: var(--button-padding);
+    border-radius: var(--button-border-radius);
+
+    /* Transition */
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.nav-but:hover{
+
+    background-color: var(--button-hover-color);
+    color: var(--button-color);
+}

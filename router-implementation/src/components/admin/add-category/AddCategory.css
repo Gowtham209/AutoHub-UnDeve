@@ -1,0 +1,22 @@
+.adding-new-category{
+    max-height: max-content;
+    display: flex;
+    gap: 1rem;
+}
+
+.view-mode-controls{
+    display: flex;
+    align-items: center;
+}
+
+.category-button{
+    display: flex;
+    gap: 1rem;
+    flex-direction:row;
+}
+.category-button .delete{
+    background-color: red;
+}
+.category-button .delete:hover{
+    background-color: rgb(172, 2, 2);
+}

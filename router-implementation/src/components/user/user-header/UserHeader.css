@@ -1,0 +1,100 @@
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.logo {
+    margin-left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.orders-test-drive-list {
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: 10rem;
+}
+
+.test-drive, .order {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.profile-logout-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.user, .logout {
+    cursor: pointer;
+}
+/* .user-header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+    background-color:black;
+    padding: 2rem 0px;
+}
+.user-header .user{
+    margin-right: 3rem;
+} */
+
+/* .user-header .search-bar {
+    border-radius: 1rem;
+    background-color: beige;
+}
+.user-header .search-bar input{
+
+    text-decoration: none;
+    background-color: beige;
+    
+    min-height: 2.4rem;
+    border-radius: 1rem;
+
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+
+    box-sizing: border-box;
+
+    color: black;
+    
+}
+
+.logo{
+    position: absolute;
+    left: 1rem;
+    margin-right: auto;
+    margin-left: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.logo:hover{
+ color: white;
+}
+
+.profile{
+
+    position: absolute;
+    right: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+
+    font-size: 2rem;
+    color: white;
+}
+
+.profile:hover{
+    color: white;
+} */

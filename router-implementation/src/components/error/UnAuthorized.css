@@ -1,0 +1,19 @@
+.unauthorized-container,.page-not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(135deg, #4388f1, #013280); /* Modern gradient background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+}
+ 
+.content-box{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.admin-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    padding: 2rem 0px;
+    color: white;
+}
+
+.profile-logout-box{
+    position: absolute;
+    right: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+
+

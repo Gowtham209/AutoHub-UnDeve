@@ -1,0 +1,77 @@
+ .tile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 300px;
+  }
+  
+  .tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tile .image {
+    background-color: #eee;
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .tile h2, .tile h3 {
+    margin: 5px 0;
+    font-size: 1.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 90%;
+  }
+  
+  .tile .model{
+    font-size: 1.8rem;
+    color: black;
+  }
+  .tile h3 {
+    color: #595a5b;
+  }
+  
+  .buy-book-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buy-book-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3a3a3a;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-book-buttons .buy-button{
+    background-color: rgb(255, 0, 0);
+  }
+  .buy-book-buttons .buy-button:hover{
+    background-color: rgb(176, 0, 0);
+  }
+  .buy-book-buttons button:hover {
+    background-color: #000000;
+  }
+  
+  .buy-book-buttons button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
