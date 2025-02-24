@@ -7,6 +7,31 @@ html{
     font-size: 62.5%;
 }
 
+.popupmessage{
+    display: none;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0rem 4rem 3rem -4rem black;
+    border-radius: 1rem;
+
+    /* position: fixed;
+    margin-left: auto;
+    margin-right: auto; */
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+
+    /* position: absolute; left: 50%; transform: translateX(-50%); width: 50%; */
+
+}
+.visible{
+    display: block;
+}
+
+
 body{
     /* box design */
     display: flex;

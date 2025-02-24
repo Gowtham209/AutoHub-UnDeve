@@ -1,10 +1,12 @@
-const scriptLink='https://script.google.com/macros/s/AKfycbywqdWmfRw3UOPdR29KKSrohqgMPwC_F8d3q54Q1odeFHuF4xY2QLUz0FcKUB8Be4Tp/exec';
+//  const scriptLink='https://script.google.com/macros/s/AKfycbywqdWmfRw3UOPdR29KKSrohqgMPwC_F8d3q54Q1odeFHuF4xY2QLUz0FcKUB8Be4Tp/exec';
+const scriptLink='https://script.google.com/macros/s/AKfycbyGsCM__ZO_sHXx6LGAC9t_ntjOesxJ81G7URSgRw_V47dYOHhNavDjQoQ2sscqlHGi/exec';
 const form = document.forms['contact-form']
 
+const popupMessage=document.querySelectorAll(".popupmessage");
 form.addEventListener('submit', e => {
   
   e.preventDefault()
-  //console.log(new FormData(form));
+
   fetch(scriptLink, 
     { 
         method: 'POST', 
@@ -12,13 +14,24 @@ form.addEventListener('submit', e => {
     })
     .then(re => re.text())
     .then(data => {
-      const jsonData = JSON.parse(data);
-      console.log("status:", jsonData.status);
-      alert(jsonData.message)
-      console.log("message:", jsonData.message);
-      
+        console.log("Success:",data);
+//       const jsonData = JSON.parse(data);
+//       console.log("status:", jsonData.status);
+
+//       console.log("message:", jsonData.message);
+//       const h3 = document.createElement("h3");
+//   h3.innerText = jsonData.message;
+//   popupMessage.appendChild(h3);
+
+//   popupMessage.style.display = "block";
+//   setTimeout(() => {
+//     popupMessage.style.display = "none";
+//   }, 4000);
     })
-    .catch(err => console.error('Error!', err.message))
+    .catch(err =>{ 
+        console.log('Error!', err);
+
+    })
 })
 
 
